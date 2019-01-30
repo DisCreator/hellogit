@@ -1,4 +1,5 @@
 #include <vector>
+#include <iostream>
 using namespace std;
 
 int main(){
@@ -22,6 +23,9 @@ int main(){
 	for ( auto v:v2)	//for each value in v2
 		cout << v << " ";
 
-
+	cout << endl;
+	
+	return 0;
+}
 
 
